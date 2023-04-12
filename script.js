@@ -12,10 +12,14 @@ const sarahStreet = 'William Close'
 const sarahPostal = '0310'
 
 // Only change below this line
+
+//used substring to remove spaces
 const leoSurname = leoName.substring(leoName.length - 8, leoName.length)
 const leo = {
+	//Added ':' instaed of assignment operators in both objects
 	name: leoName.substring(0,4) + leoSurname,
 	balance: leoBalance * -1,
+	//added quotation marks to access-id because it needs to be a string
 	'access-id': '47afb389-8014-4d0b-aff3-e40203d2107f',
 	age: 24,
 	address: {
